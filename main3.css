@@ -28,7 +28,7 @@ body > #circle-clipping-bg {
     width: 99.6%;
     background-color: var(--clip-background);
     clip-path: circle(50% at 50% 50%);
-    position: absolute;
+    position: fixed;
     z-index: -1;
 }
 
