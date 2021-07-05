@@ -1,0 +1,165 @@
+h1 {
+    color: var(--text);
+    font-size: 100px;
+    font-family: WorkSans-Regular;
+}
+
+p{
+    color: var(--text);
+    font-size: 20px;
+    font-family: WorkSans-Light;
+}
+
+.pfp-image {
+    box-shadow: 0 0 13px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 25%;
+}
+
+.menu {
+    margin-top: 0px;
+    height: 50px;
+    width: 100%;
+    font-family: WorkSans-Medium;
+    border-radius: 10px;
+}
+
+.menu ul {
+    font-size: 25px;
+    color: var(--text);
+    display: inline-flex;
+}
+
+.menu ul a {
+    list-style: none;
+    margin-left: 90%;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.menu ul a:hover {
+    color: var(--active);
+}
+
+.MenuNavigation {
+    font-family: WorkSans-Light;
+    margin: 0px 70px;
+}
+
+.box {
+    width: 700px;
+    position: absolute;
+    height: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 55px;
+    text-align: center;
+}
+
+button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: var(--button-background);
+    margin: 15px 20px;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+button a {
+    color: var(--button-text);
+}
+
+button:hover {
+    width: 140px;
+    border-radius: 5px;
+}
+
+.active {
+    color: var(--active);
+}
+
+.box a {
+    font-family: WorkSans-Regular;
+    color:var(--button-text);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .theme-box {
+        margin-left: 95%;
+    }
+    
+    .theme-box:hover {
+        margin-left: 70%;
+    }
+    
+
+    .btn-two button a {
+        color: var(--background1);
+    }
+    
+    .btn-two button {
+        background: var(--text);
+    }
+
+    body > #clipping-bg {
+        display: none;
+    }
+
+    .in-bg h1{
+        margin-top: 10px;
+        color: var(--text);
+    }
+
+    .neugass-menu {
+        margin: -5px -45px;
+    }
+    
+    .menu {
+        margin-top: 0px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .MenuNavigation {
+        font-family: WorkSans-Light;
+        margin: -5px 40px;
+    }
+
+    .menu ul {
+        font-size: 13px;
+    }
+
+    .menu ul a:hover {
+        font-size: 13px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        font-family: WorkSans-Regular;
+    }
+    
+    p{
+        color: white;
+        font-size: 10px;
+        font-family: WorkSans-Light;
+    }
+
+    .box {
+        width: 300px;
+        position: absolute;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
+    }
+}

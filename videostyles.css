@@ -1,0 +1,123 @@
+.image {
+    border-radius: 25px;
+}
+
+.video-box {
+    background-color: var(--box-background);
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.video-box p {
+    color: var(--box-text);
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.video-box a {
+    color: var(--box-text);
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.video-box2 {
+    background-color: var(--box-background);
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    margin-top: 500px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.video-box2 p {
+    color: var(--box-text);
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.video-box2 a {
+    color: var(--box-text);
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.video-box3 {
+    background-color: var(--box-background);
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    margin-top: 1000px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.video-box3 p {
+    color: var(--box-text);
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.video-box3 a {
+    color: var(--box-text);
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.video-box4 {
+    background-color: var(--box-background);
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    margin-top: 1500px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.video-box4 p {
+    color: var(--box-text);
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.video-box4 a {
+    color: var(--box-text);
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.video-box5 {
+    background-color: var(--box-background);
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    margin-top: 2000px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.video-box5 p {
+    color: var(--box-text);
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.video-box5 a {
+    color: var(--box-text);
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}

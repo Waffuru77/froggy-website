@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>froggy - youtube</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="icon/favicon.ico" />
+        <link href="style.css" rel="stylesheet" />
+        <link href="videostyles.css" rel="stylesheet" />
+        <link href="main4.css" rel="stylesheet" />
+        <link href="fonts.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+
+              <div class="home-menu"> 
+                <a onclick="MenuHome()">FROGGY</a>
+              </div>
+
+              <div class="MenuNavigation">
+                <a class="active" onclick="MenuYoutube()">Videos<a onclick="MenuDiscord()">Discord</a>
+              </div>
+              
+            </ul>
+        </div>
+
+        <div id="circle-clipping-bg"></div>
+
+        <div class="box">
+            <h1>subscribe on youtube too!</h1>
+            <img class="pfp-image"src="images/Froggy.png" height="300" />
+            <p>I upload my twitch highlights on youtube, so if you miss a stream or just want to rewatch the best moments, you can do that on my youtube!</p>
+            <button onclick="Youtube()"> <a>My Youtube</a> </button>
+            <h1>my popular paladins videos</h1>
+
+            <div onclick="Video1()" class="video-box">
+                <img src="images/video1.jpg" class="image" height="350" width="100%" />
+                <p>what playing a new paladins patch is like</p>
+            </div>
+
+            <div onclick="Video2()" class="video-box2">
+                <img src="images/video2.jpg" class="image" height="350" width="100%" />
+                <p>what paladins ranked is like</p>
+            </div>
+
+            <div onclick="Video3()" class="video-box3">
+                <img src="images/video3.jpg" class="image" height="350" width="100%" />
+                <p>what being grandmaster in paladins is like</p>
+            </div>
+
+            <div onclick="Video4()" class="video-box4">
+                <img src="images/video4.jpg" class="image" height="350" width="100%" />
+                <p>painful paladins ranked moments</p>
+            </div>
+
+            <div onclick="Video5()" class="video-box5">
+                <img src="images/video5.jpg" class="image" height="350" width="100%" />
+                <p>how to lose in paladins</p>
+            </div>
+        </div>
+
+        <script src="script/main.js"></script>
+    </body>
+</html>
